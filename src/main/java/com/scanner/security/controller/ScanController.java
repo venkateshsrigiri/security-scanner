@@ -23,7 +23,7 @@ import com.scanner.security.service.UrlScanService;
 
 @RestController
 @RequestMapping("/scan")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "*")
 public class ScanController {
 
     private final FileScanService fs;
